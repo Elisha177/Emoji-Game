@@ -1,0 +1,86 @@
+/* Write your code here. */
+
+/*main nav bar container*/
+.nav-bar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff33;
+}
+
+@media screen and (max-width: 540px) {
+  .nav-bar-container {
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .nav-bar-container {
+    padding: 15px 50px 15px 50px;
+  }
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+/* logo and website title container */
+.logo-and-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*logo image */
+.emoji-logo {
+  margin-right: 20px;
+}
+@media screen and (max-width: 540px) {
+  .emoji-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+@media screen and (max-width: 540px;) {
+  .title {
+    font-size: 16px;
+  }
+}
+/* score card container*/
+.Score-container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 540px) {
+  .Score-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*scores */
+.score {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 540px) {
+  .score {
+    font-size: 16px;
+  }
+}
